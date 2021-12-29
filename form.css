@@ -1,0 +1,135 @@
+body {
+  /* border-style: double; */
+  /* border-color: chartreuse; */
+  background-image: url("blue.jpg");
+  background-repeat: repeat-y;
+}
+
+.flex-conatiner1 {
+  /* background-color: yellowgreen; */
+  display: flex;
+  width: 100%;
+  height: 160px;
+  flex-direction: row;
+  /* background-color: seagreen; */
+  justify-content: space-between;
+}
+.top1 {
+  background-color: #002080;
+  color: white;
+  margin: 20px;
+  text-align: center;
+  height: 85px;
+  width: 300px;
+  padding: 10px;
+  border-color: red;
+  border-style: solid;
+  border-radius: 25px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.top2 {
+  background-color: #002080;
+  color: white;
+  margin-left: -300px;
+  text-align: center;
+  height: 30px;
+  width: 320px;
+  padding: 15px;
+  border-color: red;
+  border-style: solid;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.top3 {
+  background-color: #002080;
+  color: white;
+  margin: 20px;
+  text-align: center;
+  height: 85px;
+  width: 290px;
+  padding: 10px;
+  border-color: red;
+  border-style: solid;
+  border-radius: 25px;
+  font-size: 20px;
+}
+.form {
+  border: black;
+  background-color: rgb(198, 230, 230);
+  margin-left: 50%;
+  margin-right: 15%;
+  margin-top: -15%;
+  /* padding: 20px; */
+  padding: 50px;
+  border-color: rgb(192, 7, 7);
+  border-style: dashed;
+  color: red;
+  font-size: 20px;
+}
+.form > .heading {
+  font-weight: bold;
+  font-size: 25px;
+}
+input {
+  width: 150px;
+}
+.form,
+label {
+  text-align: center;
+}
+.circle {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: 2px solid red;
+  /* margin: 80px; */
+  /* padding: 70px; */
+  /* margin-top: -200px; */
+  background-color: rgb(88, 32, 139);
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.circle > .circle-info {
+  color: white;
+  padding: 5px;
+  margin: 20px;
+  font-size: 18px;
+  margin-top: 80px;
+}
+.menu > h3 {
+  background-color: #002080;
+  color: white;
+  height: 60px;
+  font-size: 45px;
+  border-color: red;
+  border-style: solid;
+  border-radius: 25px;
+  margin: 30px 390px;
+  padding: 20px;
+}
+
+.flex-container {
+  /* background-color: yellowgreen; */
+  display: flex;
+  /* justify-content: center; */
+  height: 160px;
+  /* flex-direction: row; */
+  /* background-color: seagreen; */
+  margin: 3px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.flex-item {
+  background-color: rgb(224, 117, 55);
+  width: 250px;
+  height: 220px;
+  padding: 10px;
+  /* border: 10px; */
+  margin: 60px;
+  margin-top: 50px;
+  outline: 4px solid rgb(235, 230, 227);
+  border-radius: 18px;
+}
